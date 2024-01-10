@@ -1,0 +1,17 @@
+:local(.scoped) {
+  @apply flex flex-row justify-around text-center mt-4;
+
+  div {
+    @apply text-xs;
+  }
+
+  .rv-icon {
+    font-size: 24px;
+    @apply mb-1;
+  }
+
+  > :first-child {
+    @apply flex-none;
+  }
+}
+
